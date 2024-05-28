@@ -16,7 +16,7 @@ function App() {
                 <section className="intro">
                     <p>Welcome to <span className="highlight">CeaserToken (CSR)</span>, a revolutionary cryptocurrency crafted for the PulseChain network. CeaserToken is not just a digital asset; it's a financial ecosystem where every transaction benefits the entire community. With innovative tokenomics and a transparent fee structure, CeaserToken is poised for sustainable growth and rewarding experiences for its holders.</p>
                     <button className="button" onClick={toggleDetails1}>Join the Community</button>
-                    {details1Visible && <div className="details">Stay tuned ! As The official contract address for Ceaser will be publicy announced upon depolyment to PulseChain! </div>}
+                    {details1Visible && <div className="details">Stay tuned ! As The official contract address for Ceaser will be publicly announced upon depolyment to PulseChain! </div>}
                 </section>
                 <section className="features">
                     <h2>Key Features</h2>
@@ -36,7 +36,7 @@ function App() {
                         <li><span className="highlight">Redistribution Fee (1.69%):</span> A portion of every transaction is automatically redistributed to all existing token holders, encouraging long-term holding and participation.</li>
                         <li><span className="highlight">Burn Fee (0.31%):</span> Another portion of every transaction is permanently removed from circulation, reducing the total supply over time and increasing the scarcity and potential value of the remaining tokens.</li>
                     </ul>
-                    <div className="tax-theme">Taxes and Giving Back to the Community</div>
+                    <div className="tax-theme">Supporting Growth and Rewarding Participation</div>
                 </section>
                 <section className="ownership">
                     <h2>Ownership and Transparency</h2>
