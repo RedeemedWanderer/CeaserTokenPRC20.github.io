@@ -16,7 +16,7 @@ function App() {
                 <section className="intro">
                     <p>Welcome to <span className="highlight">CeaserToken (CSR)</span>, a revolutionary cryptocurrency crafted for the PulseChain network. CeaserToken is not just a digital asset; it's a financial ecosystem where every transaction benefits the entire community. With innovative tokenomics and a transparent fee structure, CeaserToken is poised for sustainable growth and rewarding experiences for its holders.</p>
                     <button className="button" onClick={toggleDetails1}>Join the Community</button>
-                    {details1Visible && <div className="details">Stay tuned ! As The official contract address for Ceaser will be publicly announced upon depolyment to PulseChain! </div>}
+                    {details1Visible && <div className="details">Stay tuned ! As the official contract address for Ceaser will be publicly announced upon depolyment to PulseChain! </div>}
                 </section>
                 <section className="features">
                     <h2>Key Features</h2>
