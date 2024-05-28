@@ -16,7 +16,7 @@ function App() {
                 <section className="intro">
                     <p>Welcome to <span className="highlight">CeaserToken (CSR)</span>, a revolutionary cryptocurrency crafted for the PulseChain network. CeaserToken is not just a digital asset; it's a financial ecosystem where every transaction benefits the entire community. With innovative tokenomics and a transparent fee structure, CeaserToken is poised for sustainable growth and rewarding experiences for its holders.</p>
                     <button className="button" onClick={toggleDetails1}>Join the Community</button>
-                    {details1Visible && <div className="details">The offical Contract Adress of Ceaser will me made public upon deployment to the PulseChain Network! Keep any out soon!</div>}
+                    {details1Visible && <div className="details">Stay tuned ! as The official contract address for Ceaser will be publicy announced upon depolyment to PulseChain! </div>}
                 </section>
                 <section className="features">
                     <h2>Key Features</h2>
@@ -57,7 +57,7 @@ function App() {
                     <p>Designed for PulseChain pre bull market, CeaserToken is set to capitalize on the upcoming growth and excitement, providing unparalleled opportunities for its holders.</p>
                     <p>Join us in building a sustainable, community-focused financial future with CeaserToken!</p>
                     <button className="button" onClick={toggleDetails2}>Learn More</button>
-                    {details2Visible && <div className="details">More details...</div>}
+                    {details2Visible && <div className="details">Ceaser Token is inspired by Julius Ceaser's pioneering tax system, which brought stability and growth to Rome's economy. As a digital Tax coin CeaserToken intends to replicate his success!</div>}
                 </section>
             </main>
             <footer>
